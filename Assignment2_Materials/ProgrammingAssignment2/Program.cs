@@ -33,12 +33,16 @@ namespace ProgrammingAssignment2
 				// and the comment below. You can of
 				// course add more space between the
 				// comments as needed
+				int value = 0;
+				while (value !=-1)
+				{
+                    value = GetValue();
+                    Console.WriteLine(value);
+                }
 
-
-
-				// Don't add or modify any code below
-				// this comment
-				input = Console.ReadLine();
+                // Don't add or modify any code below
+                // this comment
+                input = Console.ReadLine();
 			}
 		}
 
