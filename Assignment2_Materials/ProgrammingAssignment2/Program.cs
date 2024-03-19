@@ -41,18 +41,26 @@ namespace ProgrammingAssignment2
                 float avg = 0;
 
 				//loops
-                while (value != -1)
+                while (value > -1)
 				{
 					value = GetValue();
-					sum = sum + value ;
-					count++;
+					if (value > -1)
+					{
+						sum = sum + value;
+						count++;
+					}
                 }
-				sum = sum + 1 ;
-				//Finds the average as needed
+                //Loops end
+
+                //cheese
+                //sum = sum + 1 ;
+                //count--;
+                //Finds the average as needed
                 avg = (float)sum / (float)count;
 				Console.Write(avg) ;
 				Console.Write(" "+sum);
 				Console.Write(" " + count);
+				Console.WriteLine();
                 // Don't add or modify any code below
                 // this comment
                 input = Console.ReadLine();
