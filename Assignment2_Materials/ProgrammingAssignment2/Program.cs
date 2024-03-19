@@ -33,12 +33,37 @@ namespace ProgrammingAssignment2
 				// and the comment below. You can of
 				// course add more space between the
 				// comments as needed
+				
+				//Declareing my vareables
+				int value = 0;
+                int sum = 0;
+				int count = 0;
+                float avg = 0;
 
+				//loops
+                while (value > -1 || value < -1)
+				{
+					value = GetValue();
+					if (value > -1 || value < -1)
+					{
+						sum = sum + value;
+						count++;
+					}
+                }
+                //Loops end
 
-
-				// Don't add or modify any code below
-				// this comment
-				input = Console.ReadLine();
+                //cheese
+                //sum = sum + 1 ;
+                //count--;
+                //Finds the average as needed
+                avg = (float)sum / (float)count;
+				Console.Write(avg) ;
+				Console.Write(" "+sum);
+				Console.Write(" " + count);
+				Console.WriteLine();
+                // Don't add or modify any code below
+                // this comment
+                input = Console.ReadLine();
 			}
 		}
 
