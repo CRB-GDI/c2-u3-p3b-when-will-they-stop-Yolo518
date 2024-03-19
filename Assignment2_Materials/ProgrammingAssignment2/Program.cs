@@ -37,10 +37,9 @@ namespace ProgrammingAssignment2
                 int sum = 0;
 				int count = 0;
                 float avg = 0;
-                while (value > -1)
+                while (value != -1)
 				{
 					value = GetValue();
-					Console.WriteLine(value) ;
 					sum = sum + value ;
 					count++;
                 }
