@@ -43,6 +43,7 @@ namespace ProgrammingAssignment2
 					sum = sum + value ;
 					count++;
                 }
+				sum = sum + 1 ;
                 avg = (float)sum / (float)count;
 				Console.Write(avg) ;
 				Console.Write(" "+sum);
