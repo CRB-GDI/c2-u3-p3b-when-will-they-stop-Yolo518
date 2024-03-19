@@ -52,6 +52,7 @@ namespace ProgrammingAssignment2
                 avg = (float)sum / (float)count;
 				Console.Write(avg) ;
 				Console.Write(" "+sum);
+				Console.Write(" " + count);
                 // Don't add or modify any code below
                 // this comment
                 input = Console.ReadLine();
