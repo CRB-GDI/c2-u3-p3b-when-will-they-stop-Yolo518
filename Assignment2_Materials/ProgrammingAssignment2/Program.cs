@@ -34,12 +34,19 @@ namespace ProgrammingAssignment2
 				// course add more space between the
 				// comments as needed
 				int value = 0;
-				while (value !=-1)
+                int sum = 0;
+				int count = 0;
+                float avg = 0;
+                while (value > -1)
 				{
-                    value = GetValue();
-                    Console.WriteLine(value);
+					value = GetValue();
+					Console.WriteLine(value) ;
+					sum = sum + value ;
+					count++;
                 }
-
+                avg = (float)sum / (float)count;
+				Console.Write(avg) ;
+				Console.Write(" "+sum);
                 // Don't add or modify any code below
                 // this comment
                 input = Console.ReadLine();
