@@ -41,10 +41,10 @@ namespace ProgrammingAssignment2
                 float avg = 0;
 
 				//loops
-                while (value > -1)
+                while (value > -1 || value < -1)
 				{
 					value = GetValue();
-					if (value > -1)
+					if (value > -1 || value < -1)
 					{
 						sum = sum + value;
 						count++;
